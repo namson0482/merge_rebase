@@ -10,4 +10,16 @@ public class LibraryOne {
         this.name = name;
         this.version = version;
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getVersion() {
+        return this.version;
+    }
+
+    public void run() {
+        System.out.println("LibraryOne print: " + getName() + " and version: " + getVersion());
+    }
 }
